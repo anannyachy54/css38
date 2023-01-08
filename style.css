@@ -1,0 +1,49 @@
+
+.box1{
+    position:relative;
+    height: 300px;
+    width:300px;
+    left:100px;
+    background-image: linear-gradient(blue,palevioletred,powderblue);
+}
+.box2{
+    position:absolute;
+    height: 150px;
+    width:150px;
+    left:30px;
+    background-image: linear-gradient(powderblue,plum,cornflowerblue);
+   transform:translate(50px,100px);
+   text-align: center;
+}
+.box3{
+    height: 300px;
+    width:300px;
+    background-image: linear-gradient(blue,palevioletred,powderblue);
+    transform: rotate(40deg);
+    text-align: center;
+}
+.b1{
+       position:relative;
+        height: 300px;
+        width:300px;
+       top:20px;
+       left:700px;
+        background-image: linear-gradient(navy,darkcyan,powderblue);  
+}
+
+.b2{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(palevioletred,pink,magenta);
+    border: 2px solid mediumpurple;
+    transform: scale(1,2);
+    text-align: center;
+}
+.b3{
+    height: 300px;
+    width:300px;
+    background-image: linear-gradient(navy,darkcyan,powderblue);  
+    text-align: center;
+    transform: skew(20deg,10deg);
+}
